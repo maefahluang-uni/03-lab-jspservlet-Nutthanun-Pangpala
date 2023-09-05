@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 public class TestBMICalculatorIT {
     private static Client client;
     private static Logger _logger = LoggerFactory.getLogger(TestBMICalculatorIT.class);
-    private static String WEB_URI = "http://localhost:8080/tiger";
+    private static String WEB_URI = "http://localhost:8080/calbmi";
 
     @BeforeClass
     public static void createClient() {
